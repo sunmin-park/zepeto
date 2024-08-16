@@ -1,0 +1,20 @@
+main{}
+main .visual{position: relative; height: 80vh; overflow: hidden;}
+main .visual video{width: 1920px;
+position: relative;}
+main .visual .txt{
+    /* background: aqua; */
+    position: absolute; width: 100%;
+    text-align: center;
+    top: 50%; transform: translateY(-50%);
+}
+main .visual .txt h1{
+    font-size: 2.5rem; line-height: 1.2; font-weight: 800;
+    margin-bottom: 50px; color: #fff;
+}
+main .visual .txt .start{
+    font-size: 1.44rem; font-weight: 600;
+    background: #222; color: #fff; padding: 15px 30px;
+    border-radius: 10px; 
+    display: inline-block;
+}
